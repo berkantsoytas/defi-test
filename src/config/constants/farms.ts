@@ -39,16 +39,32 @@ const farms: FarmConfig[] = [
     risk: 3,
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
-      97: '0xe0e92035077c39594793e61802a350347c320cf2',
+      97: '0xe0e92035077c39594793e61802a350347c320cf2', // must be change
       56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
     },
     tokenSymbol: 'BNB',
     tokenAddresses: {
-      97: '0x055250de69d18261ee0ca63ae495435360c05517',
+      97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 3,
+    risk: 3,
+    lpSymbol: 'DMSHIT-ETH',
+    lpAddresses: {
+      97: '0xEf88014775DE26c516c6c3492aa2bC44acBd868C',
+      56: '',
+    },
+    tokenSymbol: 'DMSHIT',
+    tokenAddresses: {
+      97: '0x4e46d1ba5da2aE6195Dac7cbc139776E5a9d9164',
+      56: '',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
   },
   // {
   //   pid: 3,
