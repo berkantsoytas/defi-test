@@ -66,6 +66,39 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+  {
+    pid: 4,
+    risk: 2,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+      97: '0xb27f628c12573594437b180a1ea1542d15e0cb78',
+      56: '',
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '0x8BaBbB98678facC7342735486C851ABD7A0d17Ca',
+      56: '',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 5,
+    risk: 2,
+    lpSymbol: 'ETH',
+    isTokenOnly: true,
+    lpAddresses: {
+      97: '0x6a9d99db0bd537f3ac57cbc316a9dd8b11a703ac',
+      56: '', // ETH-BUSD LP
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '0x8BaBbB98678facC7342735486C851ABD7A0d17Ca',
+      56: '',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
   // {
   //   pid: 3,
   //   risk: 1,
